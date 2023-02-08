@@ -1,202 +1,349 @@
 {
-  "pokemons": [
+  "Gats": [
     {
       "id": 1,
-      "num": 1,
-      "name": "bulbasaur",
+      "name": "Anton",
       "types": [
         {
           "slot": 1,
           "type": {
             "code": 1,
-            "name": "grass"
+            "name": "Nube"
           }
         },
         {
           "slot": 2,
           "type": {
             "code": 2,
-            "name": "poison"
+            "name": "Hada"
           }
         }
       ],
-      "images": [
+      "image": "./Fotos/Anton.png",
+      "moves": [
         {
-          "front": "https://raw.githubusercontent.com/luciajedi/pakumon-api/master/img/normal/front/1.png",
-          "back": "https://raw.githubusercontent.com/luciajedi/pakumon-api/master/img/normal/back/1.png"
+        "idMov": "Ojitos Tiernos"
         },
         {
-          "front_shiny": "https://raw.githubusercontent.com/luciajedi/pakumon-api/master/img/shiny/front/1.png",
-          "back_shiny": "https://raw.githubusercontent.com/luciajedi/pakumon-api/master/img/shiny/back/1.png"
-        }
-      ],
-      "moves": {
-        "HM": [
-          "cut"
-        ]
-      }
+         "idMov": "Bola de Pelo" 
+        },
+        {
+          "idMov": "Vozarrón"
+        },
+        {
+          "idMov": "Arañazo"
+        }],
+      "habilitat": "Mimitos"
     },
     {
       "id": 2,
-      "num": 549,
-      "name": "lilligant",
+      "name": "Basteet",
       "types": [
         {
           "slot": 1,
           "type": {
-            "code": 1,
-            "name": "grass"
+            "code": 3,
+            "name": "Siniestro"
           }
         }
       ],
-      "images": [
+      "image": "./Fotos/Basteet.jpg",
+      "moves": [
         {
-          "front": "https://raw.githubusercontent.com/luciajedi/pakumon-api/master/img/normal/front/549.png",
-          "back": "https://raw.githubusercontent.com/luciajedi/pakumon-api/master/img/normal/back/549.png"
+          "idMov": "Mordisco"
         },
         {
-          "front_shiny": "https://raw.githubusercontent.com/luciajedi/pakumon-api/master/img/shiny/front/549.png",
-          "back_shiny": "https://raw.githubusercontent.com/luciajedi/pakumon-api/master/img/shiny/back/549.png"
+          "idMov": "Cara susto"
+        },
+        {
+          "idMov": "Sorpresa"
+        },
+        {
+          "idMov": "Venganza"
         }
       ],
-      "moves": {
-        "HM": null
-      }
+      "habilitat": "Maldat"
     },
     {
       "id": 3,
-      "num": 6,
-      "name": "charizard",
+      "name": "Conan",
       "types": [
         {
           "slot": 1,
           "type": {
-            "code": 1,
-            "name": "fire"
+            "code": 4,
+            "name": "Lucha"
           }
         },
         {
           "slot": 2,
           "type": {
-            "code": 2,
-            "name": "flying"
+            "code": 5,
+            "name": "Normal"
           }
         }
       ],
-      "images": [
+      "image": "./Fotos/Conan.jpg",
+      "moves": [
         {
-          "front": "https://raw.githubusercontent.com/luciajedi/pakumon-api/master/img/normal/front/6.png",
-          "back": "https://raw.githubusercontent.com/luciajedi/pakumon-api/master/img/normal/back/6.png"
+          "idMov": "Bote"
         },
         {
-          "front_shiny": "https://raw.githubusercontent.com/luciajedi/pakumon-api/master/img/shiny/front/6.png",
-          "back_shiny": "https://raw.githubusercontent.com/luciajedi/pakumon-api/master/img/shiny/back/6.png"
+          "idMov": "Mordisco"
+        },
+        {
+          "idMov": "Arañazo"
+        },
+        {
+          "idMov": "Anclaje"
         }
       ],
-      "moves": {
-        "HM": [
-          "fly"
-        ]
-      }
+      "habilitat": "Segrest"
     },
     {
       "id": 4,
-      "num": 50,
-      "name": "diglett",
+      "name": "Harvey Dent",
       "types": [
         {
           "slot": 1,
           "type": {
+            "code": 5,
+            "name": "Normal"
+          }
+        },
+        {
+          "slot": 1,
+          "type": {
             "code": 1,
-            "name": "ground"
+            "name": "Nube"
           }
         }
       ],
-      "images": [
+      "image": "./Fotos/Harvey_dent.jpg",
+      "moves": [
         {
-          "front": "https://raw.githubusercontent.com/luciajedi/pakumon-api/master/img/normal/front/50.png",
-          "back": "https://raw.githubusercontent.com/luciajedi/pakumon-api/master/img/normal/back/50.png"
+          "idMov": "Bola de Pelo"
         },
         {
-          "front_shiny": "https://raw.githubusercontent.com/luciajedi/pakumon-api/master/img/shiny/front/50.png",
-          "back_shiny": "https://raw.githubusercontent.com/luciajedi/pakumon-api/master/img/shiny/back/50.png"
+          "idMov": "Biataque"
+        },
+        {
+          "idMov": "Carantoña"
+        },
+        {
+          "idMov": "Ojos Llorosos"
         }
       ],
-      "moves": {
-        "HM": null
-      }
+      "habilitat": "Facental bond"
     },
     {
       "id": 5,
-      "num": 587,
-      "name": "emolga",
+      "name": "Jannus",
       "types": [
         {
           "slot": 1,
           "type": {
             "code": 1,
-            "name": "electric"
+            "name": "Fuego"
           }
         },
         {
           "slot": 2,
           "type": {
             "code": 2,
-            "name": "flying"
+            "name": "Hielo"
           }
         }
       ],
-      "images": [
+      "image": "./Fotos/Jannus.jpg",
+      "moves": [
         {
-          "front": "https://raw.githubusercontent.com/luciajedi/pakumon-api/master/img/normal/front/587.png",
-          "back": "https://raw.githubusercontent.com/luciajedi/pakumon-api/master/img/normal/back/587.png"
+          "idMov": "Biataque"
         },
         {
-          "front_shiny": "https://raw.githubusercontent.com/luciajedi/pakumon-api/master/img/shiny/front/587.png",
-          "back_shiny": "https://raw.githubusercontent.com/luciajedi/pakumon-api/master/img/shiny/back/587.png"
+          "idMov": "Colmillo hielo"
+        },
+        {
+          "idMov": "Colmillo ígneo"
+        },
+        {
+          "idMov": "Ojitos Tiernos"
         }
       ],
-      "moves": {
-        "HM": [
-          "surf"
-        ]
-      }
+      "habilitat": "Facental bond"
     },
     {
       "id": 6,
-      "num": 60,
-      "name": "polywag",
+      "name": "Mercury",
       "types": [
         {
           "slot": 1,
           "type": {
-            "code": 1,
-            "name": "water"
+            "code": 4,
+            "name": "Lucha"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "code": 6,
+            "name": "Acero"
           }
         }
       ],
-      "images": [
+      "image": "./Fotos/Mercury.png",
+      "moves": [
         {
-          "front": "https://raw.githubusercontent.com/luciajedi/pakumon-api/master/img/normal/front/60.png",
-          "back": "https://raw.githubusercontent.com/luciajedi/pakumon-api/master/img/normal/back/60.png"
+          "idMov": "Triturar"
         },
         {
-          "front_shiny": "https://raw.githubusercontent.com/luciajedi/pakumon-api/master/img/shiny/front/60.png",
-          "back_shiny": "https://raw.githubusercontent.com/luciajedi/pakumon-api/master/img/shiny/back/60.png"
+          "idMov": "Garra metal"
+        },
+        {
+          "idMov": "Ataque rápido"
+        },
+        {
+          "idMov": "Tragar"
         }
       ],
-      "moves": {
-        "HM": [
-          "surf"
-        ]
-      }
+      "habilitat": "Mandíbula fuerte"
+    },
+    {
+      "id": 7,
+      "name": "Sparky",
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "code": 7,
+            "name": "Eléctrico"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "code": 8,
+            "name": "Agua"
+          }
+        }
+      ],
+      "image": "./Fotos/Sparky",
+      "moves": [
+        {
+          "idMov": "Colmillo rayo"
+        },
+        {
+          "idMov": "Cascada"
+        },
+        {
+          "idMov": "Chispazo"
+        },
+        {
+          "idMov": "Arañazo"
+        }
+      ],
+      "habilitat": "Nado rápido"
+    },
+    {
+      "id": 9,
+      "name": "Valeria",
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "code": 4,
+            "name": "Normal"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "code": 6,
+            "name": "Hada"
+          }
+        }
+      ],
+      "image": "./Fotos/Valeria.jpg",
+      "moves": [
+        {
+          "idMov": "Triataque"
+        },
+        {
+          "idMov": "Descanso"
+        },
+        {
+          "idMov": "Arañazo"
+        },
+        {
+          "idMov": "Brillo mágico"
+        }
+      ],
+      "habilitat": "Inmovilitzar"
+    },
+    {
+      "id": 10,
+      "name": "Vaporeon",
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "code": 4,
+            "name": "Agua"
+          }
+        }
+      ],
+      "image": "./Fotos/Vaporeon.png",
+      "moves": [
+        {
+          "idMov": "Hidrochorro"
+        },
+        {
+          "idMov": "Aguante"
+        },
+        {
+          "idMov": "Ojitos Tiernos"
+        },
+        {
+          "idMov": "Tragar"
+        }
+      ],
+      "habilitat": "Absorbe agua"
+    },
+    {
+      "id": 11,
+      "name": "Goofey",
+      "types": [
+        {
+          "slot": 1,
+          "type": {
+            "code": 4,
+            "name": "Agua"
+          }
+        }
+      ],
+      "image": "./Fotos/ZGoofey.jpg",
+      "moves": [
+        {
+          "idMov": "Salpicadura"
+        },
+        {
+          "idMov": "Buceo"
+        },
+        {
+          "idMov": "Placaje"
+        },
+        {
+          "idMov": "Sopa de aleta"
+        }
+      ],
+      "habilitat": "Ilusión"
     }
   ],
   "users": [
     {
       "id": 1,
-      "username": "anakin",
-      "password": "jcosmvl"
+      "username": "didac.hispano",
+      "password": "contra"
     }
   ]
 }
