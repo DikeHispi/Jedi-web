@@ -22,18 +22,20 @@
       "image": "./Fotos/Anton.png",
       "moves": [
         {
-        "idMov": "Ojitos Tiernos"
+          "idMov": "Ojitos Tiernos"
         },
         {
-         "idMov": "Bola de Pelo" 
+          "idMov": "Bola de Pelo"
         },
         {
           "idMov": "Vozarrón"
         },
         {
           "idMov": "Arañazo"
-        }],
-      "habilitat": "Mimitos"
+        }
+      ],
+      "habilitat": "Mimitos",
+      "desc": "Es guapiísimo y tiene una capa de pelo perfecta para ser acariciado durante horas y horas."
     },
     {
       "id": 2,
@@ -62,7 +64,8 @@
           "idMov": "Venganza"
         }
       ],
-      "habilitat": "Maldat"
+      "habilitat": "Maldad",
+      "desc": "Mas feo que chuparle el dedo a un mecánico. Cuando te lo presentan piensas que vas a ver un gato y te asusta ver semejante mierdón. Podria ser el gato de un malvado de pelicula"
     },
     {
       "id": 3,
@@ -98,7 +101,8 @@
           "idMov": "Anclaje"
         }
       ],
-      "habilitat": "Segrest"
+      "habilitat": "Segrest",
+      "desc": "Experto en llevarse cosas y dejarlas encerradas, con humanos no puede, pero vigila si tienes mascotas u objetos de valor cerca"
     },
     {
       "id": 4,
@@ -134,7 +138,8 @@
           "idMov": "Ojos Llorosos"
         }
       ],
-      "habilitat": "Facental bond"
+      "habilitat": "Facental bond",
+      "desc": "Tiene dos caras, las dos igual de adorables. Si le miras a los ojos puede manipularte a su antojo con sus cucadas"
     },
     {
       "id": 5,
@@ -143,14 +148,14 @@
         {
           "slot": 1,
           "type": {
-            "code": 1,
+            "code": 9,
             "name": "Fuego"
           }
         },
         {
           "slot": 2,
           "type": {
-            "code": 2,
+            "code": 10,
             "name": "Hielo"
           }
         }
@@ -170,7 +175,8 @@
           "idMov": "Ojitos Tiernos"
         }
       ],
-      "habilitat": "Facental bond"
+      "habilitat": "Facental bond",
+      "desc": "Tiene dos caras, en una, una mirada cálida y en la otra una mirada fría como el hielo. Aún así le gustan los mimos"
     },
     {
       "id": 6,
@@ -206,7 +212,8 @@
           "idMov": "Tragar"
         }
       ],
-      "habilitat": "Mandíbula fuerte"
+      "habilitat": "Mandíbula fuerte",
+      "desc": "Es muy salvaje, come carne de cualquier tipo sin ningun problema, se dice que los viernes les gusta comer rinoceronte"
     },
     {
       "id": 7,
@@ -227,7 +234,7 @@
           }
         }
       ],
-      "image": "./Fotos/Sparky",
+      "image": "./Fotos/Sparky.jpg",
       "moves": [
         {
           "idMov": "Colmillo rayo"
@@ -242,23 +249,24 @@
           "idMov": "Arañazo"
         }
       ],
-      "habilitat": "Nado rápido"
+      "habilitat": "Nado rápido",
+      "desc": "Le gusta tirarse a la bañera y electrocutar todo lo que hay a su alrededor"
     },
     {
-      "id": 9,
+      "id": 8,
       "name": "Valeria",
       "types": [
         {
           "slot": 1,
           "type": {
-            "code": 4,
+            "code": 5,
             "name": "Normal"
           }
         },
         {
           "slot": 2,
           "type": {
-            "code": 6,
+            "code": 2,
             "name": "Hada"
           }
         }
@@ -278,16 +286,17 @@
           "idMov": "Brillo mágico"
         }
       ],
-      "habilitat": "Inmovilitzar"
+      "habilitat": "Inmovilitzar",
+      "desc": "Parece inofensivo pero en qualquier momento puede subirse encima tuyo y dormirse durante 3 horas obligándote a hacerle caricias"
     },
     {
-      "id": 10,
+      "id": 9,
       "name": "Vaporeon",
       "types": [
         {
           "slot": 1,
           "type": {
-            "code": 4,
+            "code": 8,
             "name": "Agua"
           }
         }
@@ -307,16 +316,17 @@
           "idMov": "Tragar"
         }
       ],
-      "habilitat": "Absorbe agua"
+      "habilitat": "Absorbe agua",
+      "desc": "¿Sabias que...?"
     },
     {
-      "id": 11,
+      "id": 10,
       "name": "Goofey",
       "types": [
         {
           "slot": 1,
           "type": {
-            "code": 4,
+            "code": 8,
             "name": "Agua"
           }
         }
@@ -336,7 +346,8 @@
           "idMov": "Sopa de aleta"
         }
       ],
-      "habilitat": "Ilusión"
+      "habilitat": "Ilusión",
+      "desc": "Tiburón gato, parece un tiburon pero aaah, es un gato"
     }
   ],
   "users": [
@@ -344,6 +355,36 @@
       "id": 1,
       "username": "didac.hispano",
       "password": "contra"
+    },
+    {
+      "username": "jaume.alos",
+      "password": "contrapeña",
+      "id": 2
+    },
+    {
+      "id": "1e7f5bf0-62c1-27ec-1932-d57c1575915a",
+      "username": "Macarrons",
+      "password": "alPesto"
+    },
+    {
+      "id": "744dbe54-025a-8df0-03a6-0e9929039453",
+      "username": "Mandonguilles",
+      "password": "Tomaquet"
+    },
+    {
+      "id": "01b7dcf2-6ef5-f134-b30e-ae2dbbb08342",
+      "username": "bombilla",
+      "password": "Brillo"
+    },
+    {
+      "id": "dec9d61f-2bba-b586-73fb-452926968f06",
+      "username": "Incontinencia",
+      "password": "Jaume"
+    },
+    {
+      "id": "d88ac8a3-85cb-8c76-14eb-037171c7ffd1",
+      "username": "Eevee",
+      "password": "PiedraAgua"
     }
   ]
 }
