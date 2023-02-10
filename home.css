@@ -1,0 +1,94 @@
+.taula {
+    font-size: 110%;
+    padding-left:16px;
+    padding-right:16px;
+    margin-top: -50px;
+}
+
+.main_taula {
+    width: 100%;
+    background: #D8C8EACC;
+    border:4px solid #BCABD1;
+    border-radius: 1em;
+    -moz-border-radius: 1em;
+    -webkit-border-radius: 1em;
+    -khtml-border-radius: 1em;
+    -icab-border-radius: 1em;
+    -o-border-radius: 1em;
+    margin:0.10px;
+    padding-top:12px;
+}
+
+.th_tabla {
+    font-size:256%;
+}
+
+
+
+.espai-dre {
+    background-color: #dddee0;
+    padding-right: 5%;
+}
+
+.espai-esq {
+    background-color: #dddee0;
+    padding-left: 5%;
+}
+
+.espai-centre {
+    background-color: white;
+    display: flex;
+    text-align: center;
+    padding-top: 2%;
+}  
+
+:root {
+    --min-height-value: calc(100vh - 110px);
+}
+
+header {
+    min-height: 50px;
+}
+
+main {
+    min-height: var(--min-height-value);
+    margin-bottom: 50px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    min-height: 50px;
+    background-color: #333;
+    text-align: center;
+    align-items: center;
+}
+
+.navbar {
+    background-color: white;
+    margin-bottom: 15px;
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    color: black;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link:hover {
+    background-color: white;
+}
+
+@media only screen and (max-width: 767px) {
+    .espai-centre {
+        padding-top: 5%;
+    }
+    .actions {
+        padding-top: 20px;
+    }
+}
+/* style="background:#D8C8EACC; border:4px solid #BCABD1;
+ border-radius: 1em; -moz-border-radius: 1em; -webkit-border-radius: 1em;
+  -khtml-border-radius: 1em; -icab-border-radius: 1em;
+ -o-border-radius: 1em; margin:0.10px; padding-top:12px;" */
